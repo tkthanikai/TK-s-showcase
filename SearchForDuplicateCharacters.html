@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="CommonDesign.css">
+
+<head>
+</head>
+
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+                <a href="Home.html" class="navbar-brand">Home</a></div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Solutions<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="QuickSort.html">Quick Sort</a></li>
+                            <li><a href="BinaryTree.html">Binary Tree</a></li>
+                            <li><a href="Queue.html">Queue</a></li>
+                            <li><a href="Stack.html">Stack</a></li>
+                            <li><a href="SearchForDuplicateNumbers.html">Search for duplicate numbers</a></li>
+                            <li><a href="SearchForDuplicateCharacters.html">Search for duplicate characters</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="#"> About Us</a></li>
+                    <li> <a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class=jumbotron>
+        <div class="panel-group" role="presentation">
+            <div class="panel panel-default">
+                <div class="panel-body">Search For Duplicate Characters</div>
+                <div class="form-group">
+                    <label for="inputLabel">Please provide input here (e.g a, b, c, a) :</label>
+                    <input type="text" id="inputValues" class="form-control" id="inputLabel">
+                    <button type="button" id="calculateOutput" class="btn btn-success" onclick="eliminateDuplicateCharacters()">Calculate</button>
+                    <button type="button" class="btn btn-warning" onclick="callClearTheText()" autofocus="autofocus">Clear</button>
+                </div>
+                <div class="form-group">
+                    <label for="displayResult">Result:</label>
+                    <input type="text" class="form-control" id="displayResult">
+                </div>
+            </div>
+        </div>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="bootstrap/js/jquery-1.11.3.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="SearchForDuplicateCharacters.js"></script>
+    </div>
+</body>
+
+</html>
